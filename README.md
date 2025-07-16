@@ -24,4 +24,20 @@ Inside the game's installation folder, navigate into the BepInEx folder, then in
 
 Place your compiled mod's .dll file (AllahWare - LEAKED BY ROADBOBEK.dll) into this plugins folder.
 
-That's it! When you launch the game, BepInEx should load your mod automatically.
+That's it! When you launch the game, BepInEx should load your mod automatically. Click F9 To Open
+
+
+
+##How to setup bypass ban##
+Click on Playfab
+Custom ID - Set to anything
+Nickname - Set to anything
+
+Slect Bypass Ban users These options will save every time you open the cheat
+Grocery - Currently Working
+Yagiz - Currently Working
+Bxdev - Not Currently Working
+
+Click Antikick make sure its on after you click multiplayer when trying to join a server and turn it off when your trying to leave a server.
+
+
