@@ -28,7 +28,7 @@ That's it! When you launch the game, BepInEx should load your mod automatically.
 
 
 
-##How to setup bypass ban##
+## How to setup bypass ban
 Click on Playfab
 Custom ID - Set to anything
 Nickname - Set to anything
