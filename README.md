@@ -1,43 +1,100 @@
-## Allahware.cc GoreBox hack leak (Newest version).  
+# GoreBox Mod Installation Guide (BepInEx)
 
-***
+> ⚠️ **Disclaimer:** This guide is intended strictly for educational and legitimate modding purposes. We do **not** support or promote game hacking, cheating, or the use of pirated or leaked software. Always respect the game's terms of service and community guidelines.
 
-## Hack Installation Guide
+---
 
-Mod Installation Guide
+## 📦 Requirements
 
-Download BepInEx:
+- [BepInEx (Unity IL2CPP for Windows x64)](https://builds.bepinex.dev/projects/bepinex_be)
+- A compiled `.dll` mod plugin
+- Windows operating system (x64)
+- GoreBox (latest version)
 
-Go to the BepInEx bleeding edge builds page: https://builds.bepinex.dev/projects/bepinex_be
+---
 
-Look for the latest build of "BepInEx Unity (IL2CPP) for Windows (x64) games". Download the .zip file.
+## 🧰 Step 1: Download BepInEx
 
-Extract BepInEx:
+1. Visit the [BepInEx bleeding edge builds page](https://builds.bepinex.dev/projects/bepinex_be).
+2. Download the latest release of:
+3. Save and extract the contents of the downloaded `.zip` file.
 
-Locate your game's installation folder (where the game's .exe file is).
+---
 
-Extract the contents of the downloaded BepInEx .zip file directly into your game's installation folder. You should see new folders like BepInEx and doorstop_config.ini appear next to the game's .exe.
+## 🗂 Step 2: Install BepInEx
 
-Install Your Mod DLL:
+1. Open the folder where **GoreBox.exe** is installed.
+- For Steam: Right-click GoreBox in your Library → Manage → Browse local files.
+2. Extract the contents of the BepInEx `.zip` into this folder.
+3. After extraction, your game folder should look like this:
+GoreBox/
+├── BepInEx/
+├── doorstop_config.ini
+├── winhttp.dll
+└── GoreBox.exe
 
-Inside the game's installation folder, navigate into the BepInEx folder, then into the plugins folder.
+yaml
+Copy
+Edit
 
-Place your compiled mod's .dll file (AllahWare - LEAKED BY ROADBOBEK.dll) into this plugins folder.
+---
 
-That's it! When you launch the game, BepInEx should load your mod automatically. Click F9 To Open
+## 🧩 Step 3: Install Your Mod Plugin
 
+1. Inside the game folder, open:2. Place your mod `.dll` file inside this folder.
+- Example:
+  ```
+  GoreBox/BepInEx/plugins/MyCoolMod.dll
+  ```
 
+---
 
-## How to setup bypass ban
-Click on Playfab
-Custom ID - Set to anything
-Nickname - Set to anything
+## 🚀 Step 4: Launch the Game
 
-Slect Bypass Ban users These options will save every time you open the cheat
-Grocery - Currently Working
-Yagiz - Currently Working
-Bxdev - Not Currently Working
+- Launch GoreBox normally (via Steam or executable).
+- BepInEx will automatically initialize and load all plugins in the `plugins` folder.
+- If your mod uses a keybind (e.g., `F9`), press it in-game to activate the mod UI or features.
 
-Click Antikick make sure its on after you click multiplayer when trying to join a server and turn it off when your trying to leave a server.
+---
 
+## 🔐 Optional: PlayFab Custom ID & Ban Bypass Setup
+
+> **Use this feature responsibly. Intended for private/offline development and testing.**
+
+1. In-game, open the **PlayFab** menu.
+2. Set:
+- **Custom ID**: any string (e.g., `TestUser123`)
+- **Nickname**: any display name
+3. Enable **Bypass Ban** using any of the available working options:
+- ✅ Grocery (Working)
+- ✅ Yagiz (Working)
+- ❌ Bxdev (Not working currently)
+4. Enable **Antikick**:
+- Turn it **on after joining** a server.
+- Turn it **off before leaving** a server.
+
+---
+
+## 📎 Useful Links
+
+- 🔗 [Download BepInEx (Unity IL2CPP x64)](https://builds.bepinex.dev/projects/bepinex_be)
+- 📘 [BepInEx Official Documentation](https://docs.bepinex.dev/)
+- 🛠 [GoreBox on Steam](https://store.steampowered.com/app/1712100/GoreBox/)
+- 💬 [BepInEx GitHub Repository](https://github.com/BepInEx/BepInEx)
+
+---
+
+## ✅ Tips & Troubleshooting
+
+- ❗ **DLL not loading?**
+- Right-click the `.dll` file → Properties → Check “Unblock” (if available).
+- 🔒 Run the game as **Administrator** if mods don’t load.
+- 🧾 Check `BepInEx/LogOutput.log` for errors or plugin load messages.
+- 🔄 Restart the game after installing a new plugin.
+
+---
+
+## ⚠️ Legal Notice
+
+This guide is not affiliated with, endorsed by, or connected to the developers of GoreBox or any modding tools mentioned. Always mod responsibly and follow all local laws and platform terms of service.
 
