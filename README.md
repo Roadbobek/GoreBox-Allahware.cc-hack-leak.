@@ -1,4 +1,4 @@
-# GoreBox Mod Installation Guide (BepInEx)
+# GoreBox Mod Allahware.cc Installation Guide (BepInEx)
 
 > ⚠️ **Disclaimer:** This guide is intended strictly for educational and legitimate modding purposes. We do **not** support or promote game hacking, cheating, or the use of pirated or leaked software. Always respect the game's terms of service and community guidelines.
 
@@ -51,7 +51,7 @@ Edit
 
 ## 🚀 Step 4: Launch the Game
 
-- Launch GoreBox normally (via Steam or executable).
+- Launch GoreBox normally (via Steam or executable). Make sure your using Direct x11
 - BepInEx will automatically initialize and load all plugins in the `plugins` folder.
 - If your mod uses a keybind (e.g., `F9`), press it in-game to activate the mod UI or features.
 
@@ -70,8 +70,9 @@ Edit
 - ✅ Yagiz (Working)
 - ❌ Bxdev (Not working currently)
 4. Enable **Antikick**:
-- Turn it **on after joining** a server.
+- Turn it **on before joining** a server.
 - Turn it **off before leaving** a server.
+- Turn it **off before clicking** multiplayer
 
 ---
 
@@ -79,7 +80,7 @@ Edit
 
 - 🔗 [Download BepInEx (Unity IL2CPP x64)](https://builds.bepinex.dev/projects/bepinex_be)
 - 📘 [BepInEx Official Documentation](https://docs.bepinex.dev/)
-- 🛠 [GoreBox on Steam](https://store.steampowered.com/app/1712100/GoreBox/)
+- 🛠 [GoreBox on Steam](https://store.steampowered.com/app/2027330/GoreBox/)
 - 💬 [BepInEx GitHub Repository](https://github.com/BepInEx/BepInEx)
 
 ---
