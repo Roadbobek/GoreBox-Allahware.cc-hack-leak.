@@ -16,7 +16,7 @@
 ## 🧰 Step 1: Download BepInEx
 
 1. Visit the [BepInEx bleeding edge builds page](https://builds.bepinex.dev/projects/bepinex_be).
-2. Download the latest release of:
+2. Download the latest release of this hack (.dll)
 3. Save and extract the contents of the downloaded `.zip` file.
 
 ---
@@ -51,7 +51,7 @@ Edit
 
 ## 🚀 Step 4: Launch the Game
 
-- Launch GoreBox normally (via Steam or executable). Make sure your using Direct x11
+- Launch GoreBox normally (via Steam or executable). Make sure your using Direct x11 `Force D3D11`
 - BepInEx will automatically initialize and load all plugins in the `plugins` folder.
 - If your mod uses a keybind (e.g., `F9`), press it in-game to activate the mod UI or features.
 
